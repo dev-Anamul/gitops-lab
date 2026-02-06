@@ -8,7 +8,7 @@ namespace: dev
 
 replicas:
   - name: nginx
-    count: 2
+    count: 1
 
 images:
   - name: nginx

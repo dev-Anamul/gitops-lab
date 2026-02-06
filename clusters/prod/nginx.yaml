@@ -4,6 +4,7 @@ metadata:
   name: nginx-prod
   namespace: argocd
 spec:
+  project: default
   source:
     repoURL: https://github.com/dev-Anamul/gitops-lab.git
     targetRevision: main
